@@ -138,7 +138,6 @@ Portfolio-Website/
 
 - **Name**: Nagaram Manoj Kumar
 - **Email**: [nagarammanojkumar3@gmail.com](mailto:nagarammanojkumar3@gmail.com)
-- **Phone**: [+91 63026 78854](tel:+916302678854)
 - **LinkedIn**: [linkedin.com/in/manojkumar-nagaram](https://linkedin.com/in/manojkumar-nagaram)
 - **GitHub**: [github.com/Zinb-NMK](https://github.com/Zinb-NMK)
 
