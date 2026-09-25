@@ -87,24 +87,25 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
-              <h4>Description</h4>
+              <h3>SAP ABAP</h3>
+              <h4>Development</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                Building enterprise-grade SAP solutions with ABAP including
+                reports, ALV displays, data migrations, and custom enhancements
+                for business processes.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">Core ABAP</div>
+                <div className="what-tags">OO ABAP</div>
+                <div className="what-tags">ALV Reports</div>
+                <div className="what-tags">CDS Views</div>
+                <div className="what-tags">Open SQL</div>
+                <div className="what-tags">BDC</div>
+                <div className="what-tags">BAPI</div>
+                <div className="what-tags">DDIC</div>
+                <div className="what-tags">SAP GUI</div>
+                <div className="what-tags">Eclipse/ADT</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +129,23 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
+              <h3>TECHNICAL</h3>
+              <h4>Skills</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Strong foundation in SAP enhancement frameworks, debugging,
+                forms development, and ABAP on HANA for building optimized
+                enterprise applications.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">SAP Enhancements</div>
+                <div className="what-tags">User Exits</div>
+                <div className="what-tags">BAdIs</div>
+                <div className="what-tags">Debugging</div>
+                <div className="what-tags">Forms Development</div>
+                <div className="what-tags">ABAP on HANA</div>
+                <div className="what-tags">Data Transfer</div>
+                <div className="what-tags">Report Development</div>
               </div>
               <div className="what-arrow"></div>
             </div>

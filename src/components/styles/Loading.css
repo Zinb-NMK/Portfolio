@@ -2,8 +2,7 @@
   position: fixed;
   width: 100vw;
   height: var(--vh);
-  /* background-image: linear-gradient(#cbb1ff, #d8c4ff); */
-  background-color: #eae5ec;
+  background: linear-gradient(135deg, #0b080c 0%, #1a0e2e 50%, #0b080c 100%);
   z-index: 999999999;
   display: flex;
   place-items: center;
@@ -191,7 +190,7 @@
   left: 50%;
   transform: translateX(-50%);
   top: 0;
-  color: var(--backgroundColor);
+  color: #eae5ec;
 }
 .loader-title {
   font-weight: 700;
@@ -257,7 +256,7 @@
   position: relative;
   width: 10px;
   height: 60px;
-  background-color: #000;
+  background-color: rgba(255, 255, 255, 0.15);
   display: block;
 }
 .loaderGame-line:nth-child(2n) {
@@ -283,7 +282,7 @@
   left: 0;
   width: 100%;
   transform: translateY(-50%);
-  color: var(--backgroundColor);
+  color: rgba(255, 255, 255, 0.08);
   font-size: 60px;
   font-weight: 600;
   text-transform: uppercase;
@@ -296,7 +295,7 @@
   content: "";
   width: 20px;
   height: 20px;
-  background-color: var(--backgroundColor);
+  background-color: rgba(255, 255, 255, 0.08);
   position: absolute;
   top: 50%;
   border-radius: 50px;
