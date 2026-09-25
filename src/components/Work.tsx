@@ -15,6 +15,7 @@ const projects = [
     tools: "CDS Views, OO ALV, CL_SALV_TABLE, Open SQL",
     description:
       "Developed a Sales Order to Delivery and Billing reporting solution using layered ABAP CDS Views with base, aggregation, composite, and consumption views. Built OO ALV with calculated Open Quantity, Delivery %, Billing %, and Business Status.",
+    image: "/images/placeholder.webp",
   },
   {
     num: "02",
@@ -23,40 +24,55 @@ const projects = [
     tools: "CDS Views, OO ALV Grid, Open SQL, BDC",
     description:
       "Developed a warehouse backlog reporting solution integrating Sales Order, Material Stock, Customer, Schedule Line, and Delivery data. Implemented interactive OO ALV Grid with editable fields, automatic backlog calculations, and double-click navigation.",
+    image: "/images/placeholder.webp",
   },
   {
     num: "03",
+    name: "Medical AI Expert",
+    category: "AI / RAG-Based Chatbot",
+    tools:
+      "Python, Flask, RAG, Groq LLM, LLaMA 3, Pinecone, HuggingFace, OpenStreetMap",
+    description:
+      "Developed a full-stack AI medical assistant using Retrieval-Augmented Generation (RAG) with Groq LLM, LLaMA 3, and Pinecone vector database for context-aware clinical Q&A, custom medical document retrieval, and an integrated hospital locator.",
+    image: "/images/medical-ai-expert-01.png",
+  },
+  {
+    num: "04",
     name: "Material Master Upload",
     category: "SAP ABAP / BDC & BAPI",
     tools: "BDC, BAPI_MATERIAL_SAVEDATA, Session Method, Call Transaction",
     description:
       "Implemented BDC programs for Material Master creation through MM01 using Session Method and Call Transaction, with a BAPI-based upload solution.",
+    image: "/images/placeholder.webp",
   },
   {
-    num: "04",
+    num: "05",
     name: "SAP Enhancement Framework",
     category: "SAP ABAP / Enhancements",
     tools: "User Exits, Customer Exits, BAdIs, Implicit/Explicit Enhancements",
     description:
       "Worked with the SAP Enhancement Framework, implementing User Exits, Customer Exits, BAdIs, and Implicit/Explicit Enhancements for custom business logic.",
+    image: "/images/placeholder.webp",
   },
   {
-    num: "05",
+    num: "06",
     name: "DDIC Object Management",
     category: "SAP ABAP / Data Dictionary",
     tools:
       "Domains, Data Elements, Tables, Views, Search Helps, Lock Objects",
     description:
       "Created and managed SAP Data Dictionary objects including Domains, Data Elements, Structures, Tables, Views, Search Helps, Lock Objects, and Table Maintenance Generators.",
+    image: "/images/placeholder.webp",
   },
   {
-    num: "06",
+    num: "07",
     name: "ALV Report Suite",
     category: "SAP ABAP / Reports",
     tools:
       "Selection Screens, Parameters, Select-Options, Internal Tables, Open SQL",
     description:
       "Developed comprehensive ABAP Reports and ALV reports using Selection Screens, Parameters, Select-Options, Internal Tables, Work Areas, and Open SQL queries.",
+    image: "/images/placeholder.webp",
   },
 ];
 
@@ -133,7 +149,7 @@ const Work = () => {
                 <h4>Tools and features</h4>
                 <p>{project.tools}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt={project.name} />
+              <WorkImage image={project.image || "/images/placeholder.webp"} alt={project.name} />
             </div>
           ))}
         </div>
