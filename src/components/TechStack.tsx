@@ -10,6 +10,7 @@ import {
   CylinderCollider,
   RapierRigidBody,
 } from "@react-three/rapier";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
@@ -147,6 +148,7 @@ const TechStack = () => {
       });
     });
     window.addEventListener("scroll", handleScroll);
+    ScrollTrigger.refresh();
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
