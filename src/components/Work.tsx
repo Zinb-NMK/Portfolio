@@ -15,7 +15,7 @@ const projects = [
     tools: "CDS Views, OO ALV, CL_SALV_TABLE, Open SQL",
     description:
       "Developed a Sales Order to Delivery and Billing reporting solution using layered ABAP CDS Views with base, aggregation, composite, and consumption views. Built OO ALV with calculated Open Quantity, Delivery %, Billing %, and Business Status.",
-    image: "/images/placeholder.webp",
+    image: "/images/Sales.png",
   },
   {
     num: "02",
@@ -24,7 +24,7 @@ const projects = [
     tools: "CDS Views, OO ALV Grid, Open SQL, BDC",
     description:
       "Developed a warehouse backlog reporting solution integrating Sales Order, Material Stock, Customer, Schedule Line, and Delivery data. Implemented interactive OO ALV Grid with editable fields, automatic backlog calculations, and double-click navigation.",
-    image: "/images/placeholder.webp",
+    image: "/images/Warehouse.png",
   },
   {
     num: "03",
