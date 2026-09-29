@@ -43,7 +43,7 @@ const projects = [
     tools: "BDC, BAPI_MATERIAL_SAVEDATA, Session Method, Call Transaction",
     description:
       "Implemented BDC programs for Material Master creation through MM01 using Session Method and Call Transaction, with a BAPI-based upload solution.",
-    image: "/images/placeholder.webp",
+    image: "/images/BDC.png",
   },
   {
     num: "05",
@@ -52,7 +52,7 @@ const projects = [
     tools: "User Exits, Customer Exits, BAdIs, Implicit/Explicit Enhancements",
     description:
       "Worked with the SAP Enhancement Framework, implementing User Exits, Customer Exits, BAdIs, and Implicit/Explicit Enhancements for custom business logic.",
-    image: "/images/placeholder.webp",
+    image: "/images/ENH.png",
   },
   {
     num: "06",
@@ -62,7 +62,7 @@ const projects = [
       "Domains, Data Elements, Tables, Views, Search Helps, Lock Objects",
     description:
       "Created and managed SAP Data Dictionary objects including Domains, Data Elements, Structures, Tables, Views, Search Helps, Lock Objects, and Table Maintenance Generators.",
-    image: "/images/placeholder.webp",
+    image: "/images/DDIC.png",
   },
   {
     num: "07",
@@ -72,7 +72,7 @@ const projects = [
       "Selection Screens, Parameters, Select-Options, Internal Tables, Open SQL",
     description:
       "Developed comprehensive ABAP Reports and ALV reports using Selection Screens, Parameters, Select-Options, Internal Tables, Work Areas, and Open SQL queries.",
-    image: "/images/placeholder.webp",
+    image: "/images/ALV.png",
   },
 ];
 
