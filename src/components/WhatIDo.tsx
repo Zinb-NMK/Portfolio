@@ -114,9 +114,10 @@ const WhatIDo = () => {
               <h3>SAP ABAP</h3>
               <h4>Development</h4>
               <p>
-                Building enterprise-grade SAP solutions with ABAP including
-                reports, ALV displays, data migrations, and custom enhancements
-                for business processes.
+                Building enterprise-grade SAP solutions with ABAP — from layered
+                CDS-based reports and interactive ALV grids to data migrations,
+                custom enhancements, and performance-optimized ABAP on HANA
+                development.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -125,9 +126,13 @@ const WhatIDo = () => {
                 <div className="what-tags">ALV Reports</div>
                 <div className="what-tags">CDS Views</div>
                 <div className="what-tags">Open SQL</div>
+                <div className="what-tags">DDIC</div>
                 <div className="what-tags">BDC</div>
                 <div className="what-tags">BAPI</div>
-                <div className="what-tags">DDIC</div>
+                <div className="what-tags">Enhancements</div>
+                <div className="what-tags">Forms</div>
+                <div className="what-tags">ABAP on HANA</div>
+                <div className="what-tags">Debugging</div>
                 <div className="what-tags">SAP GUI</div>
                 <div className="what-tags">Eclipse/ADT</div>
               </div>
@@ -153,23 +158,30 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>TECHNICAL</h3>
-              <h4>Skills</h4>
+              <h3>PROGRAMMING</h3>
+              <h4>& AI</h4>
               <p>
-                Strong foundation in SAP enhancement frameworks, debugging,
-                forms development, and ABAP on HANA for building optimized
-                enterprise applications.
+                Solid foundation in programming, databases, and AI/ML — building
+                web applications, REST APIs, and intelligent systems powered by
+                LLMs and retrieval-augmented generation.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">SAP Enhancements</div>
-                <div className="what-tags">User Exits</div>
-                <div className="what-tags">BAdIs</div>
-                <div className="what-tags">Debugging</div>
-                <div className="what-tags">Forms Development</div>
-                <div className="what-tags">ABAP on HANA</div>
-                <div className="what-tags">Data Transfer</div>
-                <div className="what-tags">Report Development</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">Java</div>
+                <div className="what-tags">SQL</div>
+                <div className="what-tags">HTML</div>
+                <div className="what-tags">CSS</div>
+                <div className="what-tags">Machine Learning</div>
+                <div className="what-tags">TensorFlow</div>
+                <div className="what-tags">Flask</div>
+                <div className="what-tags">FastAPI</div>
+                <div className="what-tags">LangChain</div>
+                <div className="what-tags">RAG</div>
+                <div className="what-tags">REST APIs</div>
+                <div className="what-tags">Git/GitHub</div>
+                <div className="what-tags">MySQL</div>
+                <div className="what-tags">Streamlit</div>
               </div>
               <div className="what-arrow"></div>
             </div>

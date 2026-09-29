@@ -21,10 +21,11 @@ const Career = () => {
               <h3>2022 – 2026</h3>
             </div>
             <p>
-              Bachelor of Technology in Computer Science & Engineering with
-              specialization in Artificial Intelligence. Achieved a CGPA of
-              7.5/10 while building a strong foundation in programming, database
-              concepts, and SAP technologies.
+              Completed a B.Tech in Computer Science & Engineering with a
+              specialization in Artificial Intelligence. Built a strong
+              foundation in software development, problem-solving, databases,
+              and AI while developing a growing interest in enterprise
+              application development and SAP technologies.
             </p>
           </div>
           <div className="career-info-box">
@@ -36,12 +37,12 @@ const Career = () => {
               <h3>2026</h3>
             </div>
             <p>
-              Created and worked with SAP DDIC objects including Domains, Data
-              Elements, Tables, Views, and Search Helps. Developed ABAP Reports
-              and ALV reports using Selection Screens, Internal Tables, and Open
-              SQL. Implemented BDC programs for Material Master creation and
-              BAPI-based uploads. Worked with SAP Enhancement Framework including
-              User Exits, Customer Exits, and BAdIs.
+              Developed hands-on experience in SAP ABAP through
+              business-oriented projects and practical development work. Built
+              reporting solutions around sales and warehouse processes,
+              including a Sales Order Lifecycle Report and Warehouse Material
+              Backlog Report, with a focus on transforming business
+              requirements into practical SAP solutions.
             </p>
           </div>
           <div className="career-info-box">
@@ -53,10 +54,12 @@ const Career = () => {
               <h3>NOW</h3>
             </div>
             <p>
-              Actively seeking entry-level SAP ABAP Developer roles. Equipped
-              with hands-on experience in ABAP Reports, OO ALV, CDS Views, Open
-              SQL, BDC, BAPI, and SAP Enhancements. Ready to contribute to
-              enterprise SAP development projects.
+              Currently seeking an entry-level SAP ABAP Developer opportunity
+              to apply my practical development experience in a professional
+              environment. Alongside SAP development, my background in Python,
+              Java, SQL, AI/ML, and problem-solving allows me to approach
+              business requirements from both an application and technical
+              perspective.
             </p>
           </div>
         </div>

@@ -1,5 +1,7 @@
 import { useRef } from "react";
 import "./styles/Work.css";
+import { FaGithub } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 import WorkImage from "./WorkImage";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -35,6 +37,7 @@ const projects = [
     description:
       "Developed a full-stack AI medical assistant using Retrieval-Augmented Generation (RAG) with Groq LLM, LLaMA 3, and Pinecone vector database for context-aware clinical Q&A, custom medical document retrieval, and an integrated hospital locator.",
     image: "/images/medical-ai-expert-01.png",
+    link: "https://medicalassistance-nmk.onrender.com/",
   },
   {
     num: "04",
@@ -131,9 +134,33 @@ const Work = () => {
   return (
     <div className="work-section" id="work" ref={workRef}>
       <div className="work-container section-container">
-        <h2>
-          My <span>Work</span>
-        </h2>
+        <div className="work-heading">
+          <h2>
+            My <span>Work</span>
+          </h2>
+          <div className="work-heading-links">
+            <a
+              href="https://github.com/Zinb-NMK"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="work-heading-link"
+              aria-label="GitHub"
+              data-cursor="disable"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://leetcode.com/u/Manojkumar_Nagaram/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="work-heading-link"
+              aria-label="LeetCode"
+              data-cursor="disable"
+            >
+              <SiLeetcode />
+            </a>
+          </div>
+        </div>
         <div className="work-flex">
           {projects.map((project, index) => (
             <div className="work-box" key={index}>
@@ -149,7 +176,7 @@ const Work = () => {
                 <h4>Tools and features</h4>
                 <p>{project.tools}</p>
               </div>
-              <WorkImage image={project.image || "/images/placeholder.webp"} alt={project.name} />
+              <WorkImage image={project.image || "/images/placeholder.webp"} alt={project.name} link={project.link} />
             </div>
           ))}
         </div>
