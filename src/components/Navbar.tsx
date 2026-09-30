@@ -42,7 +42,7 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          NMK
+          <img src="/images/Logo.png" alt="NMK Logo" className="navbar-logo" />
         </a>
         <a
           href="mailto:nagarammanojkumar3@gmail.com"
