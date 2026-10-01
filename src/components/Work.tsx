@@ -30,17 +30,6 @@ const projects = [
   },
   {
     num: "03",
-    name: "Medical AI Expert",
-    category: "AI / RAG-Based Chatbot",
-    tools:
-      "Python, Flask, RAG, Groq LLM, LLaMA 3, Pinecone, HuggingFace, OpenStreetMap",
-    description:
-      "Developed a full-stack AI medical assistant using Retrieval-Augmented Generation (RAG) with Groq LLM, LLaMA 3, and Pinecone vector database for context-aware clinical Q&A, custom medical document retrieval, and an integrated hospital locator.",
-    image: "/images/medical-ai-expert-01.png",
-    link: "https://medicalassistance-nmk.onrender.com/",
-  },
-  {
-    num: "04",
     name: "Material Master Upload",
     category: "SAP ABAP / BDC & BAPI",
     tools: "BDC, BAPI_MATERIAL_SAVEDATA, Session Method, Call Transaction",
@@ -49,33 +38,15 @@ const projects = [
     image: "/images/BDC.png",
   },
   {
-    num: "05",
-    name: "SAP Enhancement Framework",
-    category: "SAP ABAP / Enhancements",
-    tools: "User Exits, Customer Exits, BAdIs, Implicit/Explicit Enhancements",
-    description:
-      "Worked with the SAP Enhancement Framework, implementing User Exits, Customer Exits, BAdIs, and Implicit/Explicit Enhancements for custom business logic.",
-    image: "/images/ENH.png",
-  },
-  {
-    num: "06",
-    name: "DDIC Object Management",
-    category: "SAP ABAP / Data Dictionary",
+    num: "04",
+    name: "Movie Recommendation System",
+    category: "Machine Learning / Python",
     tools:
-      "Domains, Data Elements, Tables, Views, Search Helps, Lock Objects",
+      "Python, FastAPI, Streamlit, Scikit-learn, TF-IDF, Cosine Similarity, NLTK, TMDB API, Content-Based Recommendation, Genre-Based Recommendations",
     description:
-      "Created and managed SAP Data Dictionary objects including Domains, Data Elements, Structures, Tables, Views, Search Helps, Lock Objects, and Table Maintenance Generators.",
-    image: "/images/DDIC.png",
-  },
-  {
-    num: "07",
-    name: "ALV Report Suite",
-    category: "SAP ABAP / Reports",
-    tools:
-      "Selection Screens, Parameters, Select-Options, Internal Tables, Open SQL",
-    description:
-      "Developed comprehensive ABAP Reports and ALV reports using Selection Screens, Parameters, Select-Options, Internal Tables, Work Areas, and Open SQL queries.",
-    image: "/images/ALV.png",
+      "A content-based Movie Recommendation System built using Python, Scikit-learn, FastAPI, Streamlit, and the TMDB API. It recommends movies using TF-IDF vectorization and Cosine Similarity while providing movie details, posters, genres, and metadata through TMDB.",
+    image: "/images/movie.png",
+    link: "https://movie-recomendation-project.onrender.com",
   },
 ];
 
