@@ -1,7 +1,4 @@
-import {
-  FaLinkedinIn,
-  FaPhoneFlip,
-} from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -68,11 +65,7 @@ const SocialIcons = () => {
             <MdEmail />
           </a>
         </span>
-        <span>
-          <a href="tel:+916302678854">
-            <FaPhoneFlip />
-          </a>
-        </span>
+
       </div>
       <a className="resume-button" href="/Manoj_Kumar_Resume.pdf" target="_blank" rel="noopener noreferrer">
         <HoverLinks text="RESUME" />
