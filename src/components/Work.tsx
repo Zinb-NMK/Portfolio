@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import "./styles/Work.css";
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub, FaBloggerB } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import WorkImage from "./WorkImage";
 import gsap from "gsap";
@@ -160,6 +160,16 @@ const Work = () => {
               data-cursor="disable"
             >
               <SiLeetcode />
+            </a>
+            <a
+              href="https://manoj-sapabap.blogspot.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="work-heading-link"
+              aria-label="Visit my Blogger"
+              data-cursor="disable"
+            >
+              <FaBloggerB />
             </a>
           </div>
         </div>

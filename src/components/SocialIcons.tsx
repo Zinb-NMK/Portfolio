@@ -1,4 +1,4 @@
-import { FaLinkedinIn } from "react-icons/fa6";
+import { FaLinkedinIn, FaBloggerB } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -63,6 +63,11 @@ const SocialIcons = () => {
         <span>
           <a href="mailto:nagarammanojkumar3@gmail.com">
             <MdEmail />
+          </a>
+        </span>
+        <span>
+          <a href="https://manoj-sapabap.blogspot.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit my Blogger">
+            <FaBloggerB />
           </a>
         </span>
 
